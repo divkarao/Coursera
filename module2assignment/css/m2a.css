@@ -1,15 +1,30 @@
-/* Layout 01: Desktop view (width is 992px and above) */
-@media (min-width: 992px;) {
+/********** Base Styles *********/
+body{
+	
+}
+
+
+section{
 
 }
 
-/* Layout 02: Tablet view (width is between 768px and 991px) */
+
+
+
+
+/********** Layout 01: Desktop view (width is 992px and above) **********/
+@media (min-width: 992px;) {
+
+
+}
+
+/********** Layout 02: Tablet view (width is between 768px and 991px) **********/
 @media (min-width: 768px;) and (max-width: 991px;) {
 
 }
 
 
-/* Layout 03: Mobile view (width is 767px and less) */
+/********** Layout 03: Mobile view (width is 767px and less) **********/
 @media (max-width: 767px;) {
 
 }
