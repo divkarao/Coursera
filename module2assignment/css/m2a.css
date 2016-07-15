@@ -1,30 +1,161 @@
 /********** Base Styles *********/
-body{
-	
+
+* {
+  box-sizing: border-box;
 }
 
-
-section{
-
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  float: left;
 }
 
+header {
+  color: #FFFFFF;
+  background-color: #262626;
+  border: 2px solid white;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px;
+}
 
+section.body {
+  position: relative;
+  float: left;
+  width: 30%;
+  border: 2px solid white;
+  margin: 20px;
+  background-color: #262626;
+  height: 300px;
+}
 
+section.header1 {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #99cc00;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  float: right;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+section.header2 {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #FF0066;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  float: right;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+section.header3 {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #00CCFF;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  float: right;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+p.title1 {
+  margin: 50px;
+  color: #99cc00;
+  word-wrap: break-word;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p.title2 {
+  margin: 50px;
+  color: #FF0066;
+  word-wrap: break-word;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p.title3 {
+  margin: 50px;
+  color: #00CCFF;
+  word-wrap: break-word;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p.ass1 {
+  margin: 30px;
+  color: #99cc00;
+  word-wrap: break-word;
+  font-weight: bold;
+  text-align: center;
+}
+
+p.ass2 {
+  margin: 30px;
+  color: #FF0066;
+  word-wrap: break-word;
+  font-weight: bold;
+  text-align: center;
+}
+
+p.ass3 {
+  margin: 30px;
+  color: #00CCFF;
+  word-wrap: break-word;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  margin: 30px;
+  color: #FFFFFF;
+  word-wrap: break-word;
+}
+
+footer {
+  border: 2px solid white;
+  color: #FFFFFF;
+  background-color: #262626;
+  text-align: center;
+  font-style: italic;
+  clear: left;
+  margin: 20px;
+  padding: 5px;
+}
 
 
 /********** Layout 01: Desktop view (width is 992px and above) **********/
-@media (min-width: 992px;) {
 
+@media (min-width: 992px;
+) {}
 
-}
 
 /********** Layout 02: Tablet view (width is between 768px and 991px) **********/
-@media (min-width: 768px;) and (max-width: 991px;) {
 
-}
+@media (min-width: 768px;
+) and (max-width: 991px;
+) {}
 
 
 /********** Layout 03: Mobile view (width is 767px and less) **********/
-@media (max-width: 767px;) {
 
-}
+@media (max-width: 767px;
+) {}
