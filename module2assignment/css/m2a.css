@@ -3,6 +3,8 @@
 * {
   box-sizing: border-box;
   font-family: Lucida Console, Courier New, Comic;
+  position: relative;
+  float: left;
 }
 
 div.row {
@@ -14,6 +16,13 @@ body {
   padding: 0;
   background-color: #000000;
   float: left;
+  width: 100%;
+}
+
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	margin: 20px;
 }
 
 header {
@@ -28,8 +37,8 @@ header {
 }
 
 section.body {
-  position: relative;
-  float: left;
+  /*position: relative;
+  float: left;*/
   border: 2px solid white;
   margin: 20px;
   background-color: #262626;
@@ -138,7 +147,7 @@ ul {
   word-wrap: break-word;
 }
 
-footer {
+/*footer {
   border: 2px solid white;
   color: #FFFFFF;
   background-color: #262626;
@@ -147,7 +156,7 @@ footer {
   clear: left;
   margin: 20px;
   padding: 5px;
-}
+}*/
 
 
 /********** Layout 01: Desktop view (width is 992px and above) **********/
